@@ -16,6 +16,15 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--Swiper-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- OWL CAROUSEL LINKS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- OWL CAROUSEL LINKS -->
     <!--My Style-->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -64,139 +73,155 @@
                         </li>
                     </ul>
                     <div>
-                        <a style="text-decoration: none;" href="contact.html">
-                            <button>
-                                <span>Book Now</span><i></i>
-                            </button>
+                        <a class="fancy" href="contact.html">
+                            <span class="top-key"></span>
+                            <span class="text">Book Now</span>
+                            <span class="bottom-key-1"></span>
+                            <span class="bottom-key-2"></span>
                         </a>
-
                     </div>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <div
-            class="swiper mySwiper swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide swiper-slide-active">
-                    <div class="overlay"> <img src="assets/image/1.jpg" alt=""> </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="box-slider">
-                                    <div class="content-box center style-2">
-                                        <h2 class="title fadeindown">Twins Apartments </h2>
-                                        <p class="sub-title fadeinright">Ready to unwind by the sea? Click to book your stay at Twins Apartments.</p>
-                                        <div class="wrap-btn center fadeinup"> <button> <a href="contact.html">Book
-                                                    Now</a></button></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active carousel1">
+                    <div class="carousel-caption">
+                        <h1 class="fade-in">
+                            HOTEL SEADEL
+                        </h1>
+                        <h6 style=" font-weight: 400; color: #ffffff; letter-spacing: 3px; font-family: 'Roboto', sans-serif;"
+                            class="fade-in">You're Always Welcome Here.
+                        </h6>
+                        <a class="fancy" href="contact.html">
+                            <span class="top-key"></span>
+                            <span class="text">Book Now</span>
+                            <span class="bottom-key-1"></span>
+                            <span class="bottom-key-2"></span>
+                        </a>
                     </div>
                 </div>
-                <div class="swiper-slide swiper-slide-next">
-                    <div class="overlay"> <img src="assets/image/3.jpg" alt=""> </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="box-slider">
-                                    <div class="content-box center style-2">
-                                        <h2 class="title fadeinleft">Where Vacation Meets Relaxation</h2>
-                                        <p class="sub-title fadeinright">Explore our luxurious apartments. Click to discover more.</p>
-                                        <div class="wrap-btn center fadeinup"> <button> <a href="rooms.html">Discover
-                                                    Our Apartament</a></button></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="carousel-item carousel2">
+                    <div class="carousel-caption">
+                        <h1 class="fade-in">
+                            HOTEL SEADEL
+                        </h1>
+                        <h6 style=" font-weight: 400; color: #ffffff; letter-spacing: 3px; font-family: 'Roboto', sans-serif;"
+                            class="fade-in">You're Always Welcome Here.
+                        </h6>
+                        <a class="fancy" href="contact.html">
+                            <span class="top-key"></span>
+                            <span class="text">Book Now</span>
+                            <span class="bottom-key-1"></span>
+                            <span class="bottom-key-2"></span>
+                        </a>
                     </div>
                 </div>
-                <div class="swiper-slide swiper-slide-next">
-                    <div class="overlay"> <img src="assets/image/2.jpg" alt=""> </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="box-slider">
-                                    <div class="content-box center style-2">
-                                        <h2 class="title fadeindown">Explore Saranda <br> Rest In Luxury</h2>
-                                        <p class="sub-title fadeinright">Discover the charm of Saranda. Click to learn more about our luxurious accommodations.</p>
-                                        <div class="wrap-btn center fadeinup">
-                                            <button>
-                                                <a href="about.html">Learn More
-                                                </a>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-        </div>
-        <!--About-->
-        <section class="about_area">
-            <div class="container">
-                <div class="row gy-5 justify-content-between flex-lg-row-reverse align-items-center">
-                    <div class="col-md-5 ">
-                        <div class="parallax_wrapper">
-                            <img src="assets/image/1.jpg" alt="" class="img-fluid rounded-img ">
-                            <div class="img_over">
-                                <img src="assets/image/2.jpg" alt="" class="rounded-img  ">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <h6>SeaSide Apartaments</h6>
-                        <h1 class="display-2" data-animation="slideInRight">It's not Perfect... It's Paradise</h1>
-                        <p>Located in the heart of Ksamil, just steps from Saranda Bay Beach and Ksamil Main Beach,
-                            Twins Apartments offers a peaceful retreat. Recently renovated, our property features a
-                            beautiful garden, shared lounge, and complimentary WiFi. Private parking is also available
-                            on site.</p>
-                        <p> Our apartment includes a terrace with stunning sea views, two bedrooms, a living room with a
-                            flat-screen TV, and a fully equipped kitchen. With two bathrooms and a balcony overlooking
-                            the garden, your comfort is assured. Enjoy an allergy-free, non-smoking environment for a
-                            relaxing stay. Welcome to Twins Apartments – your perfect getaway in Ksamil.</p>
-                        <a style="text-decoration: none;" href="about.html">
-                            <button id="button" class="btn-3" style="letter-spacing: 2px;">LEARN MORE</button>
+                <div class="carousel-item carousel3">
+                    <div class="carousel-caption">
+                        <h1 class="fade-in">
+                            HOTEL SEADEL
+                        </h1>
+                        <h6 style=" font-weight: 400; color: #ffffff; letter-spacing: 3px;font-family: 'Roboto', sans-serif;"
+                            class="fade-in">You're Always Welcome Here.
+                        </h6>
+                        <a class="fancy" href="contact.html">
+                            <span class="top-key"></span>
+                            <span class="text">Book Now</span>
+                            <span class="bottom-key-1"></span>
+                            <span class="bottom-key-2"></span>
                         </a>
                     </div>
                 </div>
             </div>
-        </section>
-        <!--End About-->
-        <!--Rooms-->
-        <section class="rooms">
+        </div>
+        <section class="about-section">
             <div class="container">
-                <div class="row gy-4">
-                    <div class="col-md-4">
-                        <div class="row text-center block-text">
-                            <h6 class="title">ROOMS & ACCOMODATION</h6>
-                            <h4 class="text mb-4">
-                                Our Apartament
-                            </h4>
-                        </div>
-                        <p class="rp">Boasting a private entrance, this air-conditioned apartment comes with 1 living room, 2
-                            separate bedrooms and 2 bathrooms with a bath and a shower. The well-equipped kitchen has a
-                            stovetop, a refrigerator, kitchenware and an oven. Featuring a terrace with sea views, this
-                            apartment also features a washing machine and a flat-screen TV. The unit has 3 beds.</p>
-                        <div class="d-flex justify-content-center my-4">
-                            <a style="text-decoration: none;" href="rooms.html">
-                                <button id="button" class="btn-3" style="letter-spacing: 2px;">Explore</button>
-                            </a>
+                <div class="row">
+                    <div class="col-lg-5 fadeinright">
+                        <h5 style="color: #60ADD6;">Hotel Seadel</h5>
+                        <h1>About Us</h1>
+                        <br>
+                        <h6 style="line-height: 28.96px; letter-spacing: normal;">Located in Ksamil, within 1 km of
+                            Puerto Rico Beach and 2.8 km of Butrint National Park, Hotel SEADEL provides accommodation
+                            with barbecue facilities and as well as free private parking for guests who drive. </h6>
+                        <br>
+                        <br>
+                        <a href="about.html">
+                            <button class="cta">
+                                <span class="span1">Learn More</span>
+                                <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                    <path d="M1,5 L11,5"></path>
+                                    <polyline points="8 1 12 5 8 9"></polyline>
+                                </svg>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-lg-6 col-6">
+                                <img src="assets/image/4.jpg" alt="" class="img-fluid fadeinup">
+                            </div>
+                            <div class="col-lg-6 col-6">
+                                <img src="assets/image/5.jpg" alt="" class="img-fluid fadeinup">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-8 text-center">
-                        <div class="my-card">
-                            <div class="card-content">
-                                <div class="img-place">
-                                    <div id="card-img1"></div>
+                </div>
+            </div>
+        </section>
+        <section class="rooms-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 text-center">
+                                    <h2 class="display-6" style="text-align: left;">Our Rooms</h2>
                                 </div>
-                                <div class="card-text">
-                                    <h4 style="color: black;">Two Bedroom Apartament</h4>
-                                    <p style="color: black;">1 double bed & 2 single beds</p>
+                            </div>
+                        </div>
+                                </div>
+                    <div class="col-lg-6 text-end">
+                        <a class="fancy" href="rooms.html">
+                            <span class="top-key"></span>
+                            <span class="text">VIEW ALL ROOMS</span>
+                            <span class="bottom-key-1"></span>
+                            <span class="bottom-key-2"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 my-4">
+                        <div class="card-container">
+                            <div class="card fadeinright">
+                                <div class="front-content">
+                                    <img src="assets/image/1.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="content">
+                                    <p class="heading">Triple Room with Balcony</p>
+                                    <p>
+                                        The triple room features air conditioning, soundproof walls, a balcony with lake
+                                        views as well as a private bathroom boasting a shower. The unit has 2 beds.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 my-4">
+                        <div class="card-container">
+                            <div class="card fadeinleft">
+                                <div class="front-content">
+                                    <img src="assets/image/17.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="content">
+                                    <p class="heading">Double Room With Balcony</p>
+                                    <p>
+                                        The double room provides air conditioning, soundproof walls, a balcony with lake
+                                        views as well as a private bathroom featuring a shower. The unit offers 1 bed.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -204,169 +229,125 @@
                 </div>
             </div>
         </section>
-        <!--End Rooms-->
-        <!--Gallery-->
-        <section class="gallery">
-            <div class="container">
-                <div class="row gy-4 text-center">
-                    <div class="row text-center block-text">
-                        <h6 class="title">GALLERY</h6>
-                        <h4 class="text mb-4">
-                            Photos About Our Apartament
-                        </h4>
+        <section class="d-flex text-center justify-content-center" style="background: #f2f3f4;">
+            <div>
+                <div class="container">
+                    <div class="row text-center text-white my-4">
+                        <h1 style="font-weight: 300;color: black;"><span>Facilities</span></h1>
                     </div>
-                    <div class="swiper gallery-slider">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"> <img src="assets/image/1.jpg" alt=""></div>
-                            <div class="swiper-slide"><img src="assets/image/2.jpg" alt=""></div>
-                            <div class="swiper-slide"><img src="assets/image/3.jpg" alt=""></div>
-                            <div class="swiper-slide"><img src="assets/image/4.jpg" alt=""></div>
-                            <div class="swiper-slide"><img src="assets/image/5.jpg" alt=""></div>
-                            <div class="swiper-slide"><img src="assets/image/6.jpg" alt=""></div>
-                            <div class="swiper-slide"><img src="assets/image/7.jpg" alt=""></div>
-                            <div class="swiper-slide"><img src="assets/image/8.jpg" alt=""></div>
+                    <div class="row">
+                        <div class="col-lg-4 my-2">
+                            <div class="facility fadeinup active-up">
+                                <i class="fas fa-parking"></i>
+                                <h3>Free Parking</h3>
+                                <h6>We provide free parking facilities for all our guests.</h6>
+                            </div>
                         </div>
-                        <div class="swiper-pagination gallery-pagination"></div>
-                    </div>
-                    <a style="text-decoration: none;" href="gallery.html">
-                        <button id="button" class="btn-3" style="letter-spacing: 2px;">FULL GALLERY</button>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!--End Gallery-->
-        <!--facilitete-->
-        <section class="facilities-section">
-            <div class="container">
-                <div class="row fade-in block-text">
-                    <h6 class="title" style="color: #ffffff">FACILITIES</h6>
-                    <h4 class="text mb-4" style="color: #ffffff;">
-                        What We Offer To Our Clients
-                    </h4>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 my-2 fadeinup">
-                        <div class="facility-box">
-                            <i class="fas fa-building fa-3x"></i>
-                            <h5>Entire Apartment</h5>
+                        <div class="col-lg-4 my-2">
+                            <div class="facility fadeinup active-up">
+                                <i class="fas fa-wifi"></i>
+                                <h3>Free WiFi</h3>
+                                <h6>Each accommodation has free WiFi in all of the premise.</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-2">
+                            <div class="facility fadeinup active-up">
+                                <i class="fas fa-users"></i>
+                                <h3>Family Rooms</h3>
+                                <h6>Spacious family rooms are available for a comfortable stay.</h6>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3 my-2 fadeinup">
-                        <div class="facility-box">
-                            <i class="fas fa-parking fa-3x"></i>
-                            <h5>Private Parking</h5>
+                    <div class="row">
+                        <div class="col-lg-4 my-2">
+                            <div class="facility fadeinup active-up">
+                                <i class="fas fa-smoking-ban"></i>
+                                <h3>Non-smoking Rooms</h3>
+                                <h6>Enjoy a smoke-free environment in our non-smoking rooms.</h6>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 my-2 fadeinup">
-                        <div class="facility-box">
-                            <i class="fas fa-archway fa-3x"></i>
-                            <h5>Balcony</h5>
+                        <div class="col-lg-4 my-2">
+                            <div class="facility fadeinup active-up">
+                                <i class="fas fa-building"></i>
+                                <h3>Apartments</h3>
+                                <h6>We offer fully furnished apartments for long stays.</h6>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 my-2 fadeinup">
-                        <div class="facility-box">
-                            <i class="fas fa-wifi fa-3x"></i>
-                            <h5>Free WiFi</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 my-2 fadeinup">
-                        <div class="facility-box">
-                            <i class="fas fa-bath fa-3x"></i>
-                            <h5>Private Bathroom</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-3 my-2 fadeinup">
-                        <div class="facility-box">
-                            <i class="fas fa-water fa-3x"></i>
-                            <h5>Sea View</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-3 my-2 fadeinup">
-                        <div class="facility-box">
-                            <i class="fas fa-home fa-3x"></i>
-                            <h5>Family Rooms</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-3 my-2 fadeinup">
-                        <div class="facility-box">
-                            <i class="fas fa-smoking-ban fa-3x"></i>
-                            <h5>Non-Smoking Rooms</h5>
+                        <div class="col-lg-4 my-2">
+                            <div class="facility fadeinup active-up">
+                                <i class="fas fa-utensils"></i>
+                                <h3>Kitchenette</h3>
+                                <h6>Each room is equipped with a kitchenette for your convenience.</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--End Facility-->
-        <!--Testimonials -->
-        <section class="container">
-            <div class="row text-center block-text">
-                <h6 class="title">REVIEWS</h6>
-                <h4 class="text mb-4">
-                    What Our Clients Say About Us
-                </h4>
+        <section class="testimonial-section fadeinup active-up">
+            <div class="row">
+                <div class="container">
+                    <h6 style="color: #60ADD6">TESTIMONIALS</h6>
+                    <h1>What Our Guests Say</h1>
+                </div>
             </div>
-            <div class="container">
-                <div class="row d-flex justify-content-center text-white">
-                    <div class="col-md-3 ">
-                        <div class="review-box">
-                            <h6 class="py-2">01</h6>
-                            <h2>
-                                Anna</h2>
-                            <p>Belgium</p>
-                            <p>
-                                Our stay at Twins Apartments was fantastic! The apartment was spacious and clean, with
-                                a beautiful sea view from the balcony. The private parking and free WiFi were very
-                                convenient, and we loved the terrace. The location near Saranda Bay Beach made it easy
-                                to enjoy the coastline. Highly recommended!
-                            </p>
+            <div
+                class="testimonial mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                <div class="testi-content swiper-wrapper ">
+                    <div class="slide swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                        data-swiper-slide-index="2" style="width: 900px;" role="group" aria-label="3 / 3">
+                        <p>
+                            "I had an amazing stay at this hotel! The room was spacious and well-designed, with a lovely
+                            balcony offering stunning sea views. The kitchenette was a great bonus, allowing us to
+                            prepare our own meals when we didn't feel like eating out. The staff were incredibly
+                            friendly and helpful, making our stay even more enjoyable. Highly recommended!"
+                        </p>
+                        <i class="bx bxs-quote-alt-left quote-icon"></i>
+                        <div class="details">
+                            <span class="name">
+                                Besjana</span>
+                            <span class="job">Germany</span>
                         </div>
                     </div>
-                    <div class="col-md-3 ">
-                        <div class="review-box">
-                            <h6 class="py-2">02</h6>
-                            <h2>
-                                John </h2>
-                            <p>Ireland</p>
-                            <p>
-                                We had a wonderful family vacation at Twins Apartments. The apartment had everything
-                                we needed, including a fully equipped kitchen, two bathrooms, and a comfortable living
-                                room. The kids loved the garden and the sea view from the balcony. The private parking
-                                and non-smoking rooms were a plus!</p>
+                    <div class="slide swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0"
+                        style="width: 900px;" role="group" aria-label="1 / 3">
+                        <p>
+                            "This hotel exceeded my expectations in every way. The private bathroom was spotless and
+                            modern, and the air conditioning kept us cool during the hot days. I appreciated the
+                            soundproofing as well, which ensured a peaceful night's sleep. The flat-screen TV was
+                            perfect for relaxing after a day of sightseeing. I would definitely stay here again!"
+                        </p>
+                        <i class="bx bxs-quote-alt-left quote-icon"></i>
+                        <div class="details">
+                            <span class="name">
+                                Jahonvic</span>
+                            <span class="job">Croatia</span>
                         </div>
                     </div>
-                    <div class="col-md-3 ">
-                        <div class="review-box">
-                            <h6 class="py-2">03</h6>
-                            <h2>Gloria</h2>
-                            <p>Spain</p>
-                            <p>
-                                Twins Apartments exceeded our expectations. The apartment was recently renovated and
-                                very clean. We enjoyed the complimentary WiFi and the private parking. The terrace with
-                                sea views was a perfect spot for morning coffee. The location was ideal, close to
-                                Saranda Bay Beach and a short drive to Saranda City Beach.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <div class="review-box">
-                            <h6 class="py-2">04</h6>
-                            <h2>
-                                Michele</h2>
-                            <p>Italy</p>
-                            <p>
-                                Staying at Twins Apartments was a great experience. The apartment was allergy-free,
-                                non-smoking, and very comfortable. We appreciated the full-day security and the shared
-                                kitchen. The view from the balcony was stunning, and the private parking made our stay
-                                hassle-free. The proximity to the beach was a big bonus! </p>
+                    <div class="slide swiper-slide swiper-slide-prev" data-swiper-slide-index="1" style="width: 900px;"
+                        role="group" aria-label="2 / 3">
+                        <p>
+                            "Staying at this hotel was a delight. The 30 m² room provided plenty of space to move
+                            around, and the elegant decor added a touch of luxury. The kitchenette was fully equipped,
+                            making it easy to prepare meals. The balcony was a perfect spot to enjoy a morning coffee
+                            with a view. Everything was top-notch, from the amenities to the service. Five stars!"
+                        </p>
+                        <i class="bx bxs-quote-alt-left quote-icon"></i>
+                        <div class="details">
+                            <span class="name">
+                                Aleksander</span>
+                            <span class="job"> Spain</span>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                </div>
+                <div class="swiper-button-next nav-btn" tabindex="0" role="button" aria-label="Next slide"
+                    aria-controls="swiper-wrapper-812aafb8b8687ce4"></div>
+                <div class="swiper-button-prev nav-btn" tabindex="0" role="button" aria-label="Previous slide"
+                    aria-controls="swiper-wrapper-812aafb8b8687ce4"></div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
             </div>
         </section>
-        <!--End Testimonials-->
+
         <footer>
             <div class="container text-center justify-content-center">
                 <div class="row ">
@@ -389,13 +370,13 @@
                                     href="https://maps.app.goo.gl/z6wkVcUsH8YPG1cS7" class="text-white m-0 p-0"
                                     style="text-decoration: none;">Road Riza Cerova, Ksamil
                                 </a></li>
-                            <li><i class="fas fa-phone" style="color:white;"></i><a href="tel:+355692461656"
+                            <li><i class="fas fa-phone" style="color:white;"></i><a href="tel:+355696969696"
                                     class="text-white m-0 p-0" style="text-decoration: none;">+355 (0)
-                                    692461656</a>
+                                    696969696</a>
                             <li> <i class="fas fa-envelope" style="color: white;"></i><a
-                                    href="mailto: seasideapartments72@gmail.com" class="text-white m-0 p-0"
+                                    href="mailto: example@example.com" class="text-white m-0 p-0"
                                     style="text-decoration: none;">
-                                    seasideapartments72@gmail.com</a></li>
+                                    example@example.com</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3">
@@ -446,6 +427,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
+        <script src="assets/owl-carousel/owl.carousel.js"></script>
+        <script src=“https://code.jquery.com/jquery-3.7.0.min.js” integrity=“sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=” crossorigin=“anonymous”></script>
+
     <script src="main.js"></script>
     <script>
         var swiper1 = new Swiper('.mySwiper', {
@@ -470,7 +454,6 @@
                 el: ".gallery-pagination",
                 clickable: true,
             },
-
             breakpoints: {
                 0: {
                     slidesPerView: 1,
@@ -478,7 +461,6 @@
                 540: {
                     slidesPerView: 3,
                 },
-
             },
         });
     </script>
