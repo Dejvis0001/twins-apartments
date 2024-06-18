@@ -222,7 +222,7 @@ ul.link_menu li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    height: 900px;
+    height: 75vh;
 }
 .carousel2 {
     background: url('assets/image/2.jpg') rgba(20, 19, 19, 0.452);
@@ -231,7 +231,7 @@ ul.link_menu li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    height: 900px;
+    height: 75vh;
 }
 .carousel3 {
     background: url('assets/image/3.jpg') rgba(20, 19, 19, 0.493);
@@ -240,7 +240,7 @@ ul.link_menu li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    height: 900px;
+    height: 75vh;
 }
 .carousel-caption {
     margin-bottom: 13%;
@@ -249,7 +249,7 @@ ul.link_menu li a:hover {
 .carousel-caption h1 {
     font-family: 'Literata', serif;
     text-transform: uppercase;
-    font-size: 100px !important;
+    font-size: 100px;
     font-weight: 500;
 }
 .carousel-caption h6 {
@@ -356,7 +356,7 @@ ul.link_menu li a:hover {
     justify-content: center;
     text-align: center;
     gap: 10px;
-    background: linear-gradient(-45deg, #d4b9a1 0%, #EAB98D 100%);
+    background: linear-gradient(-45deg, #d4b9a1 0%, #60add6 100%);
     color: #e8e8e8;
     padding: 20px;
     line-height: 1.5;
@@ -368,6 +368,9 @@ ul.link_menu li a:hover {
 .card .content .heading {
     font-size: 32px;
     font-weight: 700;
+}
+.headding {
+    font-size: 25px;
 }
 .card:hover .content {
     transform: translateY(0);
@@ -592,7 +595,7 @@ ul.link_menu li a:hover {
 .slide p {
     text-align: center;
     padding: 0 60px;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 400;
     color: #000000;
 }
@@ -606,12 +609,12 @@ ul.link_menu li a:hover {
     align-items: center;
 }
 .details .name {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
     color: #000000;
 }
 .details .job {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     color: #000000;
 }
@@ -842,16 +845,19 @@ ul.link_menu li a:hover {
         padding-bottom: 0px;
     }
     #btn-back-to-top,
-    .info-box {
+    .info-box,
+    html body main section.about-section div.container div.row div.col-md-6.h-100 div.row.h-100 div.col-md-6.h-100 img.img-fluid.fadeinup.h-100.active-up {
         display: none !important;
     }
     ul.conta li,
     footer p,
     ul.social_icon,
     .heading-2,
-    ul.link_menu li {
-        text-align: center;
-        float: center;
+    ul.link_menu li,
+    html body main section.rooms-section div.container div.row div.col-md-6 div.container div.row div.col-lg-12.text-center h2.display-6,
+    html body main section.rooms-section div.container div.row div.col-md-6.text-end {
+        text-align: center !important;
+        float: center !important;
     }
     footer h4 {
         text-align: center;
@@ -867,4 +873,24 @@ ul.link_menu li a:hover {
     .fadeinup {
         transform: none;
     }
+    .details .job {
+        margin-bottom: 30px;
+    }
+    .carousel-caption h1 {
+        font-size: 40px;
+    }
+    .carousel-caption {
+        margin-bottom: 40%;
+    }
+    html body main section#about div.container div.row div.col-lg-3.my-auto.col-6.fade-in.active img.img-fluid.shadow,
+    html body main section#about div.container div.row div.col-lg-4.col-6.fade-in.active img.img-fluid.shadow {
+        height: 100% !important;
+    }
+    .card .content .heading {
+        font-size: 23px;
+    }
+    .headding {
+        font-size: 16px;
+    }
+    .carousel1,.carousel2,.carousel3{height: 70vh !important;}
 }
